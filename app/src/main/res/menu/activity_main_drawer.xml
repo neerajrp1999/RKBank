@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myAccount"
+            android:icon="@drawable/person"
+            android:title="My Account" />
+        <item
+            android:id="@+id/myPassbook"
+            android:icon="@drawable/passbook"
+            android:title="My Passbook" />
+        <item
+            android:id="@+id/accountSetting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Account Setting/update" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="Transaction History" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Near_Store"
+                android:icon="@drawable/shop"
+                android:title="Near Store" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="24*7 help" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+    </item>
+    <item android:title="logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+        </menu>
+    </item>
+</menu>

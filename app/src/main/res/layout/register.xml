@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_foreground"
+    android:orientation="vertical"
+    tools:context=".register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/otpR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter OTP:"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name:"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/pan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pan No:"
+            android:inputType="textNoSuggestions"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:maxLength="12"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/aadar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aadar No:"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adderess"
+            android:inputType="textLongMessage"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Pin Password(this code is used for money transfer)"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="10dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Gender"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="RadioButton">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

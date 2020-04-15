@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF2FD"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/downloadlogo"
+        android:layout_marginTop="18dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/detail_s"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+       />
+
+    <TextView
+        android:id="@+id/detail_w"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:text="Button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

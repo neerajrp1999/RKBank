@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_margin="10dp"
+            android:text="Do 10 Money Transfer of 200 and get 5rs caseback"/>
+
+        <Button
+            android:id="@+id/offer1b"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:text="Active" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_margin="10dp"
+            android:text="Do 10 Money Transfer of 500 and get 15rs caseback" />
+
+        <Button
+            android:id="@+id/offer2b"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:text="Active" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_margin="10dp"
+            android:text="Do 10 Money Transfer of 700 and get 20rs caseback"/>
+
+        <Button
+            android:id="@+id/offer3b"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:text="Active"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:layout_margin="10dp"
+            android:text="Do 10 Money Transfer of 2000 and get 25rs caseback"/>
+
+        <Button
+            android:id="@+id/offer4b"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:layout_margin="10dp"
+            android:text="Active" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delOffer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="DeActived Offer" />
+</LinearLayout>

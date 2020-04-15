@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/r"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF2FD"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/Mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile no(in form 8888888888)"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:maxLength="10"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/AmountTra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter a Amount"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="RadioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButtonSav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Saving Account"
+            android:layout_marginTop="20dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2wall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="Wallet" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/pincodeConformation2"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:hint="PIN Code"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/MoneyPay"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="115dp"
+        android:text="Transfer/Pay Money" />
+</LinearLayout>

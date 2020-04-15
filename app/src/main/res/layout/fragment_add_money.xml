@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF2FD"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/bankname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Bank name:"
+        android:inputType="textLongMessage"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:maxLength="20"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/bankno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter a Bank no:"
+        android:inputType="number"
+        android:maxLength="15"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/AmountAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter a Amount:"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/pin_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter a pin code:"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/AddMoneyButton"
+        android:text="Add Money"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentBottom="true"
+        />
+</LinearLayout>
